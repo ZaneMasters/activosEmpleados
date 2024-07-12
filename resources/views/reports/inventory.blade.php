@@ -11,7 +11,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($assets as $asset)
+                @foreach($inventory as $asset)
                     <tr>
                         <td class="border px-4 py-2">{{ $asset->serial_code }}</td>
                         <td class="border px-4 py-2">{{ optional($asset->employee)->name ?? 'No asignado' }}</td>

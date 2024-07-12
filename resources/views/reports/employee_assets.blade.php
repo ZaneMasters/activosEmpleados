@@ -11,7 +11,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($employees as $employee)
+                @foreach($employeeAssets as $employee)
                     <tr>
                         <td class="border px-4 py-2">{{ $employee->name }}</td>
                         <td class="border px-4 py-2">{{ $employee->company_assets_count }}</td>

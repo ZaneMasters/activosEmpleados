@@ -9,7 +9,8 @@
                 <tr class="bg-gray-200">
                     <th class="px-4 py-2">ID</th>
                     <th class="px-4 py-2">Nombre</th>
-                    <th class="px-4 py-2">Documento</th>
+                    <th class="px-4 py-2">Tipo Documento</th>
+                    <th class="px-4 py-2">Num Documento</th>
                     <th class="px-4 py-2">Posición</th>
                     <th class="px-4 py-2">Departamento</th>
                     <th class="px-4 py-2">Acciones</th>

@@ -11,7 +11,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($department as $department)
+                @foreach($departmentAssets as $department)
                     <tr>
                         <td class="border px-4 py-2">{{ $department->name }}</td>
                         <td class="border px-4 py-2">{{ $department->assets_count }}</td>

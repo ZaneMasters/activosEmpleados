@@ -24,12 +24,12 @@
                         <td class="border px-4 py-2">{{ $log->assigner }}</td>
                         <td class="border px-4 py-2">{{ $log->created_at->format('d-m-Y H:i') }}</td>
                         <td class="border px-4 py-2">
-                            <a href="{{ route('logs.show', $log->id) }}" class="text-blue-500 hover:text-blue-700">Ver</a>
-                            <a href="{{ route('logs.edit', $log->id) }}" class="text-yellow-500 hover:text-yellow-700">Editar</a>
+                            <a href="{{ route('logs.show', $log->id) }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Ver</a>
+                            <a href="{{ route('logs.edit', $log->id) }}" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Editar</a>
                             <form action="{{ route('logs.destroy', $log->id) }}" method="POST" class="inline">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="text-red-500 hover:text-red-700">Eliminar</button>
+                                <button type="submit" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Eliminar</button>
                             </form>
                         </td>
                     </tr>
